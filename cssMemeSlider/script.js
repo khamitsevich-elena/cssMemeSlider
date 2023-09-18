@@ -1,3 +1,5 @@
+alert("Прошу проверить работу чуть позже, невнимательно прочитала задание. Благодарю за понимание!");
+
 window.addEventListener('DOMContentLoaded', () => {
     const controls = document.querySelectorAll('.info_controls_control_wrapper'),
     button = document.querySelectorAll('.info_controls_control'),
