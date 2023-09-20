@@ -95,149 +95,6 @@ h2:nth-child(4){
     transform: translateY(-12vw);
     transition: transform 1s ease-in-out;
 }
-input {
-    display: none;
-}
-body:has(input[value="first"]:checked) .image_wrapper:nth-child(2), .image_wrapper:nth-child(3), .image_wrapper:nth-child(4){
-    opacity: 0;
-    transition: all 1.5s;
-}
-body:has(input[value="first"]:checked) h2:nth-child(2), h2:nth-child(3), h2:nth-child(4){
-    opacity: 0;
-    transition: all 1.5s;
-}
-body:has(input[value="first"]:checked) .info_controls_control_second, .info_controls_control_third, .info_controls_control_fourth {
-    background-color: rgb(112, 102, 252);
-    transition: all 1.5s;
-    cursor: pointer
-}
-body:has(input[value="first"]:checked) .info_controls_control_first{
-    background-color: rgb(37, 37, 37);
-    transition: all 1.5s;
-    cursor: auto
-}
-body:has(input[value="first"]:checked) .info_controls_control_second:hover, .info_controls_control_third:hover, .info_controls_control_fourth:hover {
-    background-color:rgb(255, 255, 255);
-    border-color:rgb(255, 255, 255);
-    transition: all 0.3s ease-in-out;
-}
-body:has(input[value="first"]:checked) .info_controls_control_first:hover{
-    background-color: rgb(37, 37, 37);
-    border:0.2em solid rgb(112, 102, 252);
-}
-body:has(input[value="first"]:checked) .image_wrapper:nth-child(1){
-    opacity: 100;
-    transition: all 1.5s;
-}
-body:has(input[value="first"]:checked) h2:nth-child(1){
-    opacity: 100;
-    transition: all 1.5s;
-}
-body:has(input[value="second"]:checked) .image_wrapper:nth-child(1),.image_wrapper:nth-child(3),.image_wrapper:nth-child(4){
-    opacity: 0;
-    transition: all 1.5s;
-}
-body:has(input[value="second"]:checked) h2:nth-child(1), h2:nth-child(3), h2:nth-child(4) {
-    opacity: 0;
-    transition: all 1.5s;
-}
-body:has(input[value="second"]:checked) .info_controls_control_first, .info_controls_control_third, .info_controls_control_fourth {
-    background-color: rgb(112, 102, 252);
-    transition: all 1.5s;
-    cursor: pointer
-}
-body:has(input[value="second"]:checked) .info_controls_control_second{
-    background-color: rgb(37, 37, 37);
-    transition: all 1.5s;
-    cursor: auto
-}
-body:has(input[value="second"]:checked) .info_controls_control_first:hover, .info_controls_control_third:hover, .info_controls_control_fourth:hover {
-    background-color:rgb(255, 255, 255);
-    border-color:rgb(255, 255, 255);
-    transition: all 0.3s ease-in-out;
-}
-body:has(input[value="second"]:checked) .info_controls_control_second:hover{
-    background-color: rgb(37, 37, 37);
-    border:0.2em solid rgb(112, 102, 252);
-}
-body:has(input[value="second"]:checked) .image_wrapper:nth-child(2){
-    opacity: 100;
-    transition: all 1.5s;
-}
-body:has(input[value="second"]:checked) h2:nth-child(2){
-    opacity: 100;
-    transition: all 1.5s;
-}
-body:has(input[value="third"]:checked) .image_wrapper:nth-child(1),.image_wrapper:nth-child(2),.image_wrapper:nth-child(4){
-    opacity: 0;
-    transition: all 1.5s;
-}
-body:has(input[value="third"]:checked) h2:nth-child(1), h2:nth-child(2), h2:nth-child(4){
-    opacity: 0;
-    transition: all 1.5s;
-}
-body:has(input[value="third"]:checked) .info_controls_control_first, .info_controls_control_second, .info_controls_control_fourth {
-    background-color: rgb(112, 102, 252);
-    transition: all 1.5s;
-    cursor: pointer
-}
-body:has(input[value="third"]:checked) .info_controls_control_third{
-    background-color: rgb(37, 37, 37);
-    transition: all 1.5s;
-    cursor: auto
-}
-body:has(input[value="third"]:checked) .info_controls_control_first:hover, .info_controls_control_second:hover, .info_controls_control_fourth:hover {
-    background-color:rgb(255, 255, 255);
-    border-color:rgb(255, 255, 255);
-    transition: all 0.3s ease-in-out;
-}
-body:has(input[value="third"]:checked) .info_controls_control_third:hover{
-    background-color: rgb(37, 37, 37);
-    border:0.2em solid rgb(112, 102, 252);
-}
-body:has(input[value="third"]:checked) .image_wrapper:nth-child(3){
-    opacity: 100;
-    transition: all 1.5s;
-}
-body:has(input[value="third"]:checked) h2:nth-child(3){
-    opacity: 100;
-    transition: all 1.5s;
-}
-body:has(input[value="fourth"]:checked) .image_wrapper:nth-child(1),.image_wrapper:nth-child(2),.image_wrapper:nth-child(3){
-    opacity: 0;
-    transition: all 1.5s;
-}
-body:has(input[value="fourth"]:checked) h2:nth-child(1), h2:nth-child(2), h2:nth-child(3) {
-    opacity: 0;
-    transition: all 1.5s;
-}
-body:has(input[value="fourth"]:checked) .info_controls_control_first, .info_controls_control_second, .info_controls_control_third {
-    background-color: rgb(112, 102, 252);
-    transition: all 1.5s;
-    cursor: pointer
-}
-body:has(input[value="fourth"]:checked) .info_controls_control_fourth{
-    background-color: rgb(37, 37, 37);
-    transition: all 1.5s;
-    cursor: auto
-}
-body:has(input[value="fourth"]:checked) .info_controls_control_first:hover, .info_controls_control_second:hover, .info_controls_control_third:hover {
-    background-color:rgb(255, 255, 255);
-    border-color:rgb(255, 255, 255);
-    transition: all 0.3s ease-in-out;
-}
-body:has(input[value="fourth"]:checked) .info_controls_control_fourth:hover{
-    background-color: rgb(37, 37, 37);
-    border:0.2em solid rgb(112, 102, 252);
-}
-body:has(input[value="fourth"]:checked) .image_wrapper:nth-child(4){
-    opacity: 100;
-    transition: all 1.5s;
-}
-body:has(input[value="fourth"]:checked) h2:nth-child(4){
-    opacity: 100;
-    transition: all 1.5s;
-}
 @media (min-width: 1024px){
     .container{
         width: 75vw;
@@ -289,5 +146,150 @@ body:has(input[value="fourth"]:checked) h2:nth-child(4){
     }
     h2{
         text-align: left;
+    }
+}
+@media (min-width: 320px) {
+    input {
+        display: none;
+    }
+    body:has(input[value="first"]:checked) .image_wrapper:nth-child(2), .image_wrapper:nth-child(3), .image_wrapper:nth-child(4){
+        opacity: 0;
+        transition: all 1.5s;
+    }
+    body:has(input[value="first"]:checked) h2:nth-child(2), h2:nth-child(3), h2:nth-child(4){
+        opacity: 0;
+        transition: all 1.5s;
+    }
+    body:has(input[value="first"]:checked) .info_controls_control_second, .info_controls_control_third, .info_controls_control_fourth {
+        background-color: rgb(112, 102, 252);
+        transition: all 1.5s;
+        cursor: pointer
+    }
+    body:has(input[value="first"]:checked) .info_controls_control_first{
+        background-color: rgb(37, 37, 37);
+        transition: all 1.5s;
+        cursor: auto
+    }
+    body:has(input[value="first"]:checked) .info_controls_control_second:hover, .info_controls_control_third:hover, .info_controls_control_fourth:hover {
+        background-color:rgb(255, 255, 255);
+        border-color:rgb(255, 255, 255);
+        transition: all 0.3s ease-in-out;
+    }
+    body:has(input[value="first"]:checked) .info_controls_control_first:hover{
+        background-color: rgb(37, 37, 37);
+        border:0.2em solid rgb(112, 102, 252);
+    }
+    body:has(input[value="first"]:checked) .image_wrapper:nth-child(1){
+        opacity: 100;
+        transition: all 1.5s;
+    }
+    body:has(input[value="first"]:checked) h2:nth-child(1){
+        opacity: 100;
+        transition: all 1.5s;
+    }
+    body:has(input[value="second"]:checked) .image_wrapper:nth-child(1),.image_wrapper:nth-child(3),.image_wrapper:nth-child(4){
+        opacity: 0;
+        transition: all 1.5s;
+    }
+    body:has(input[value="second"]:checked) h2:nth-child(1), h2:nth-child(3), h2:nth-child(4) {
+        opacity: 0;
+        transition: all 1.5s;
+    }
+    body:has(input[value="second"]:checked) .info_controls_control_first, .info_controls_control_third, .info_controls_control_fourth {
+        background-color: rgb(112, 102, 252);
+        transition: all 1.5s;
+        cursor: pointer
+    }
+    body:has(input[value="second"]:checked) .info_controls_control_second{
+        background-color: rgb(37, 37, 37);
+        transition: all 1.5s;
+        cursor: auto
+    }
+    body:has(input[value="second"]:checked) .info_controls_control_first:hover, .info_controls_control_third:hover, .info_controls_control_fourth:hover {
+        background-color:rgb(255, 255, 255);
+        border-color:rgb(255, 255, 255);
+        transition: all 0.3s ease-in-out;
+    }
+    body:has(input[value="second"]:checked) .info_controls_control_second:hover{
+        background-color: rgb(37, 37, 37);
+        border:0.2em solid rgb(112, 102, 252);
+    }
+    body:has(input[value="second"]:checked) .image_wrapper:nth-child(2){
+        opacity: 100;
+        transition: all 1.5s;
+    }
+    body:has(input[value="second"]:checked) h2:nth-child(2){
+        opacity: 100;
+        transition: all 1.5s;
+    }
+    body:has(input[value="third"]:checked) .image_wrapper:nth-child(1),.image_wrapper:nth-child(2),.image_wrapper:nth-child(4){
+        opacity: 0;
+        transition: all 1.5s;
+    }
+    body:has(input[value="third"]:checked) h2:nth-child(1), h2:nth-child(2), h2:nth-child(4){
+        opacity: 0;
+        transition: all 1.5s;
+    }
+    body:has(input[value="third"]:checked) .info_controls_control_first, .info_controls_control_second, .info_controls_control_fourth {
+        background-color: rgb(112, 102, 252);
+        transition: all 1.5s;
+        cursor: pointer
+    }
+    body:has(input[value="third"]:checked) .info_controls_control_third{
+        background-color: rgb(37, 37, 37);
+        transition: all 1.5s;
+        cursor: auto
+    }
+    body:has(input[value="third"]:checked) .info_controls_control_first:hover, .info_controls_control_second:hover, .info_controls_control_fourth:hover {
+        background-color:rgb(255, 255, 255);
+        border-color:rgb(255, 255, 255);
+        transition: all 0.3s ease-in-out;
+    }
+    body:has(input[value="third"]:checked) .info_controls_control_third:hover{
+        background-color: rgb(37, 37, 37);
+        border:0.2em solid rgb(112, 102, 252);
+    }
+    body:has(input[value="third"]:checked) .image_wrapper:nth-child(3){
+        opacity: 100;
+        transition: all 1.5s;
+    }
+    body:has(input[value="third"]:checked) h2:nth-child(3){
+        opacity: 100;
+        transition: all 1.5s;
+    }
+    body:has(input[value="fourth"]:checked) .image_wrapper:nth-child(1),.image_wrapper:nth-child(2),.image_wrapper:nth-child(3){
+        opacity: 0;
+        transition: all 1.5s;
+    }
+    body:has(input[value="fourth"]:checked) h2:nth-child(1), h2:nth-child(2), h2:nth-child(3) {
+        opacity: 0;
+        transition: all 1.5s;
+    }
+    body:has(input[value="fourth"]:checked) .info_controls_control_first, .info_controls_control_second, .info_controls_control_third {
+        background-color: rgb(112, 102, 252);
+        transition: all 1.5s;
+        cursor: pointer
+    }
+    body:has(input[value="fourth"]:checked) .info_controls_control_fourth{
+        background-color: rgb(37, 37, 37);
+        transition: all 1.5s;
+        cursor: auto
+    }
+    body:has(input[value="fourth"]:checked) .info_controls_control_first:hover, .info_controls_control_second:hover, .info_controls_control_third:hover {
+        background-color:rgb(255, 255, 255);
+        border-color:rgb(255, 255, 255);
+        transition: all 0.3s ease-in-out;
+    }
+    body:has(input[value="fourth"]:checked) .info_controls_control_fourth:hover{
+        background-color: rgb(37, 37, 37);
+        border:0.2em solid rgb(112, 102, 252);
+    }
+    body:has(input[value="fourth"]:checked) .image_wrapper:nth-child(4){
+        opacity: 100;
+        transition: all 1.5s;
+    }
+    body:has(input[value="fourth"]:checked) h2:nth-child(4){
+        opacity: 100;
+        transition: all 1.5s;
     }
 }
